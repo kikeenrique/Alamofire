@@ -30,6 +30,10 @@ let package = Package(
     products: [
         .library(
             name: "Alamofire",
+            targets: ["Alamofire"]),
+        .library(
+            name: "AlamofireDynamic",
+            type: .dynamic,
             targets: ["Alamofire"])
     ],
     targets: [
